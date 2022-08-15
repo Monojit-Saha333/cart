@@ -1,0 +1,26 @@
+.card-item-box
+{
+ display: inline-flex;
+padding: auto;
+margin: 2.5px auto 2.5px auto;
+ border: 1px solid gray ;
+ border-radius: 20px;
+}
+
+.card-item-box #left-div,#right-div{
+  margin:auto;
+  padding: 10px;
+  text-align: left;
+}
+
+.card-item-box #left-div img{
+  margin:10px;
+  height: 80px;
+  width: 100px;
+}
+.card-item-box #right-div .action-buttons img{
+    margin:0 20px 0 20px ;
+    height: 20px;
+    width: 20px;
+    cursor:pointer;
+  }
